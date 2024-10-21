@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4; /* Slightly lighter color */
+    border-bottom: 2px solid white; /* Underline effect */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+.chart-container {
+    width: 50%; /* Adjust this percentage as needed */
+    max-width: 400px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the chart */
+}
+
+@media (max-width: 600px) {
+    .chart-container {
+        width: 90%; /* Make it almost full width on mobile */
+    }
+}
